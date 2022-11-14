@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Device -->
+ <project path="device/xiaomi/tulip" name="AOSP-Silicon/device_xiaomi_tulip" remote="github" revision="tiramisu" clone-depth="1" />
+ <project path="vendor/xiaomi/tulip" name="AOSP-Silicon/vendor_xiaomi_tulip" remote="github" revision="tiramisu" clone-depth="1" />
+ <project path="kernel/xiaomi/tulip" name="AOSP-Silicon/kernel_xiaomi_tulip" remote="github" revision="tiramisu" clone-depth="1" />
+
+</manifest>
