@@ -9,4 +9,7 @@
  <!-- Cosmic clang -->
  <project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
 
+ <!-- Google Camera Lite -->
+ <project path="packages/apps/GoogleCameraLite" name="GhostMaster69-dev/packages_apps_GoogleCameraLite" remote="gitlab" revision="master" clone-depth="1" />
+
 </manifest>
