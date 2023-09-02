@@ -4,7 +4,7 @@
  <!-- Device -->
  <project path="device/xiaomi/tulip" name="AOSP-Silicon/device_xiaomi_tulip" remote="github" revision="tiramisu" clone-depth="1" />
  <project path="vendor/xiaomi/tulip" name="AOSP-Silicon/vendor_xiaomi_tulip" remote="github" revision="tiramisu" clone-depth="1" />
- <project path="kernel/xiaomi/tulip" name="AOSP-Silicon/kernel_xiaomi_tulip" remote="github" revision="tiramisu" clone-depth="1" />
+ <project path="kernel/xiaomi/tulip" name="GhostMaster69-dev/kernel_xiaomi_tulip" remote="github" revision="13" clone-depth="1" />
 
  <!-- Cosmic clang -->
  <project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
