@@ -12,4 +12,7 @@
  <!-- Google Camera Lite -->
  <project path="packages/apps/GoogleCameraLite" name="GhostMaster69-dev/packages_apps_GoogleCameraLite" remote="gitlab" revision="master" clone-depth="1" />
 
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="AOSP-Silicon/frameworks_base" remote="github" revision="13" clone-depth="1" />
+
 </manifest>
