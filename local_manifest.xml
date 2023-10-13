@@ -2,8 +2,8 @@
 <manifest>
 
  <!-- Device -->
- <project path="device/xiaomi/tulip" name="AOSP-Silicon/device_xiaomi_tulip" remote="github" revision="test" />
- <project path="vendor/xiaomi/tulip" name="AOSP-Silicon/vendor_xiaomi_tulip" remote="github" revision="test" />
+ <project path="device/xiaomi/tulip" name="AOSP-Silicon/device_xiaomi_tulip" remote="github" revision="13" />
+ <project path="vendor/xiaomi/tulip" name="AOSP-Silicon/vendor_xiaomi_tulip" remote="github" revision="13" />
  <project path="kernel/xiaomi/tulip" name="GhostMaster69-dev/kernel_xiaomi_tulip" remote="github" revision="13" clone-depth="1" />
 
  <!-- Cosmic clang -->
