@@ -24,4 +24,8 @@
 
  <remove-project name="android_vendor_octavi" />
  <project path="vendor/octavi" name="GhostMaster69-dev/android_vendor_octavi" remote="github" revision="thirteen" />
+
+ <remove-project name="android_frameworks_base" />
+ <project path="frameworks/base" name="AOSP-Silicon/OCTAVI-FWB" remote="github" revision="thirteen" />
+
 </manifest>
