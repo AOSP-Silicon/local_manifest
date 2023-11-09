@@ -30,4 +30,7 @@
 
  <remove-project name="android_packages_apps_Settings" />
  <project path="packages/apps/Settings" name="AOSP-Silicon/android_packages_apps_Settings" remote="github" revision="thirteen" />
+
+ <remove-project name="vendor_google_gms" />
+ <project path="vendor/google/gms" name="GhostMaster69-dev/vendor_google_gms" remote="gitlab" revision="thirteen" />
 </manifest>
