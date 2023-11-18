@@ -2,11 +2,19 @@
 <manifest>
 
  <!-- Cosmic clang -->
- <project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" />
 
  <!-- Device -->
- <project path="device/xiaomi/vince" name="OctaviOS-Devices/device_xiaomi_vince" remote="github" revision="13" clone-depth="1" />
- <project path="vendor/xiaomi/vince" name="OctaviOS-Devices/vendor_xiaomi_vince" remote="github" revision="13" clone-depth="1" />
- <project path="kernel/xiaomi/vince" name="AOSP-Silicon/kernel_xiaomi_vince" remote="github" revision="13" clone-depth="1" />
+ <project path="device/xiaomi/vince" name="OctaviOS-Devices/device_xiaomi_vince" remote="github" revision="13" />
+ <project path="vendor/xiaomi/vince" name="OctaviOS-Devices/vendor_xiaomi_vince" remote="github" revision="13" />
+ <project path="kernel/xiaomi/vince" name="OctaviOS-Devices/kernel_xiaomi_vince" remote="github" revision="13" />
 
+ <remove-project name="android_frameworks_opt_telephony" />
+ <project path="frameworks/opt/telephony" name="GhostMaster69-dev/android_frameworks_opt_telephony" remote="github" revision="thirteen" />
+
+ <remove-project name="android_vendor_octavi" />
+ <project path="vendor/octavi" name="GhostMaster69-dev/android_vendor_octavi" remote="github" revision="thirteen" />
+
+ <remove-project name="android_frameworks_base" />
+ <project path="frameworks/base" name="AOSP-Silicon/OCTAVI-FWB" remote="github" revision="thirteen" />
 </manifest>
