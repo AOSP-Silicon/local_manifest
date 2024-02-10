@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <remote name="gitlab" fetch="https://gitlab.com/" />
+ 
  <!-- Device -->
  <project path="device/xiaomi/tulip" name="AOSP-Silicon/device_xiaomi_tulip" remote="github" revision="14.0" />
  <project path="vendor/xiaomi/tulip" name="AOSP-Silicon/vendor_xiaomi_tulip" remote="github" revision="14.0" />
