@@ -13,4 +13,8 @@
 
  <!-- hardware/xiaomi -->
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-21" clone-depth="1" />
+
+ <!-- system/libhidl -->
+ <remove-project name="LineageOS/android_system_libhidl" />
+ <project path="system/libhidl" name="AOSP-Silicon/android_system_libhidl" remote="github" revision="lineage-21" clone-depth="1" />
 </manifest>
