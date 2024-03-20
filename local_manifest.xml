@@ -9,6 +9,6 @@
  <!-- Android Clang -->
  <project path="prebuilts/clang/clang-android" name="GhostMaster69-dev/android-clang" remote="gitlab" revision="18.0.0" clone-depth="1" />
 
- <!-- Google Camera Lite -->
- <project path="packages/apps/GoogleCameraLite" name="GhostMaster69-dev/packages_apps_GoogleCameraLite" remote="gitlab" revision="master" clone-depth="1" />
+ <remove-project name="packages_apps_DerpLauncher" />
+ <project path="packages/apps/DerpLauncher" name="GhostMaster69-dev/packages_apps_DerpLauncher" remote="github" revision="13" />
 </manifest>
