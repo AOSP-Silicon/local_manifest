@@ -11,4 +11,10 @@
 
  <remove-project name="packages_apps_DerpLauncher" />
  <project path="packages/apps/DerpLauncher" name="GhostMaster69-dev/packages_apps_DerpLauncher" remote="github" revision="13" />
+
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="GhostMaster69-dev/frameworks_base" remote="github" revision="13" />
+
+ <remove-project name="packages_apps_Settings" />
+ <project path="packages/apps/Settings" name="GhostMaster69-dev/packages_apps_Settings" remote="github" revision="13" />
 </manifest>
