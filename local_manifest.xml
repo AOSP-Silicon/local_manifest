@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Device -->
+ <!-- Device specific sources -->
  <project path="device/xiaomi/tulip" name="AOSP-Silicon/device_xiaomi_tulip" remote="github" revision="14" />
  <project path="vendor/xiaomi/tulip" name="AOSP-Silicon/vendor_xiaomi_tulip" remote="github" revision="14" />
- <project path="kernel/xiaomi/tulip" name="GhostMaster69-dev/kernel_xiaomi_tulip" remote="github" revision="master" />
+ <project path="kernel/xiaomi/tulip" name="AOSP-Silicon/kernel_xiaomi_tulip" remote="github" revision="14" />
 
- <!-- Cosmic clang -->
- <project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" />
-
- <!-- Google Camera Lite -->
- <project path="packages/apps/GoogleCameraLite" name="GhostMaster69-dev/packages_apps_GoogleCameraLite" remote="gitlab" revision="master" />
-
+ <!-- Android clang 18.0.1 -->
+ <project path="prebuilts/clang/clang-android" name="GhostMaster69-dev/android-clang" remote="gitlab" revision="18.0.1" clone-depth="1" />
 </manifest>
