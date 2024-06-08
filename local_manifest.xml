@@ -15,9 +15,6 @@
  <!-- Android Clang -->
  <project path="prebuilts/clang/clang-android" name="android-clang" remote="gitlab-me" revision="18.0.1" clone-depth="1" />
 
- <!-- hardware/xiaomi -->
- <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-21" />
-
  <remove-project name="LineageOS/android_system_libhidl" />
  <project path="system/libhidl" name="android_system_libhidl" remote="github-me" revision="lineage-21.0" />
 
