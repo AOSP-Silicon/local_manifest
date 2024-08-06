@@ -8,4 +8,7 @@
 
  <!-- Android clang -->
  <project path="prebuilts/clang/clang-android" name="GhostMaster69-dev/android-clang" remote="gitlab" revision="19.0.0" clone-depth="1" />
+
+ <remove-project name="vendor_derp" />
+ <project path="vendor/derp" name="GhostMaster69-dev/vendor_derp" remote="github" revision="14" />
 </manifest>
