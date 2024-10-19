@@ -7,5 +7,5 @@
  <project path="kernel/xiaomi/tulip" name="AOSP-Silicon/kernel_xiaomi_tulip" remote="github" revision="master" />
 
  <!-- Android clang -->
- <project path="prebuilts/clang/clang-android" name="GhostMaster69-dev/android-clang" remote="gitlab" revision="19.0.0" clone-depth="1" />
+ <project path="prebuilts/clang/clang-android" name="GhostMaster69-dev/android-clang" remote="gitlab" revision="19.0.1" clone-depth="1" />
 </manifest>
