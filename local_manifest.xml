@@ -7,6 +7,13 @@
  <project path="kernel/xiaomi/tulip" name="AOSP-Silicon/kernel_xiaomi_tulip" remote="github" revision="13" />
 
  <!-- Android Clang -->
- <project path="prebuilts/clang/clang-android" name="GhostMaster69-dev/android-clang" remote="gitlab" revision="19.0.1" clone-depth="1" />
+ <project path="prebuilts/clang/clang-android" name="GhostMaster69-dev/android-clang" remote="gitlab" revision="20.0.0" clone-depth="1" />
+
+ <remove-project name="hardware_qcom_audio" />
+ <remove-project name="hardware_qcom_display" />
+ <remove-project name="hardware_qcom_media" />
+ <project path="hardware/qcom-caf/sdm660/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-20.0-caf-sdm660" clone-depth="1" />
+ <project path="hardware/qcom-caf/sdm660/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-20.0-caf-sdm660" clone-depth="1" />
+ <project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-20.0-caf-sdm660" clone-depth="1" />
 
 </manifest>
