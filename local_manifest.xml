@@ -18,4 +18,7 @@
  <project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-20.0-caf-sdm660" clone-depth="1" />
  -->
 
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="GhostMaster69-dev/frameworks_base" remote="github" revision="13" clone-depth="1" />
+
 </manifest>
