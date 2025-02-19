@@ -18,4 +18,7 @@
  <project path="hardware/qcom-caf/sdm660/media" name="shekhawat2/android_hardware_qcom_media" remote="github" revision="13-4.19" clone-depth="1" />
  -->
 
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="GhostMaster69-dev/frameworks_base" remote="github" revision="13" clone-depth="1" />
+
 </manifest>
