@@ -4,7 +4,7 @@
  <!-- Device -->
  <project path="device/xiaomi/tulip" name="AOSP-Silicon/device_xiaomi_tulip" remote="github" revision="13" />
  <project path="vendor/xiaomi/tulip" name="AOSP-Silicon/vendor_xiaomi_tulip" remote="github" revision="13" />
- <project path="kernel/xiaomi/tulip" name="AOSP-Silicon/kernel_xiaomi_tulip" remote="github" revision="15" />
+ <project path="kernel/xiaomi/tulip" name="AOSP-Silicon/kernel_xiaomi_tulip" remote="github" revision="13" />
 
  <!-- Android Clang -->
  <project path="prebuilts/clang/clang-android" name="GhostMaster69-dev/android-clang" remote="gitlab" revision="20.0.0" clone-depth="1" />
@@ -18,8 +18,10 @@
  <project path="hardware/qcom-caf/sdm660/media" name="shekhawat2/android_hardware_qcom_media" remote="github" revision="13-4.19" clone-depth="1" />
  -->
 
+ <!--
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="GhostMaster69-dev/frameworks_base" remote="github" revision="13" clone-depth="1" />
+ -->
 
  <!--
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" clone-depth="1" />
