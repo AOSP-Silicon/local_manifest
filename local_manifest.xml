@@ -4,13 +4,13 @@
  <!-- xiaomi tulip sources -->
  <project path="device/xiaomi/tulip" name="AOSP-Silicon/device_xiaomi_tulip" remote="github" revision="vic" />
  <project path="vendor/xiaomi/tulip" name="AOSP-Silicon/vendor_xiaomi_tulip" remote="github" revision="vic" />
- <project path="kernel/xiaomi/tulip" name="GhostMaster69-dev/android_kernel_xiaomi_sdm660" remote="github" revision="lineage-20" />
+ <project path="kernel/xiaomi/tulip" name="GhostMaster69-dev/android_kernel_xiaomi_sdm660" remote="github" revision="lineage-20-qti-dyn" />
 
  <!-- Android Clang -->
  <project path="prebuilts/clang/clang-android" name="GhostMaster69-dev/android-clang" remote="gitlab" revision="20.0.0" />
 
   <!-- Temp Hotfix -->
  <remove-project name="LineageOS/android_system_libhidl" />
- <project path="system/libhidl" name="AOSP-Silicon/android_system_libhidl" remote="github" revision="lineage-22.1" />
+ <project path="system/libhidl" name="AOSP-Silicon/android_system_libhidl" remote="github" revision="lineage-22.2" />
 
 </manifest>
